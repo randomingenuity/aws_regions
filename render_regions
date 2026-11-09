@@ -1,0 +1,80 @@
+#!/usr/bin/env python3
+"""Merge continent region maps from continents.yaml into regions.yaml."""
+
+import argparse
+import os
+import sys
+
+import yaml
+
+
+def parse_arguments(argv):
+    parser = argparse.ArgumentParser(
+        description="Produce regions.yaml by merging regions from continents.yaml.",
+    )
+    default_directory_path = os.path.dirname(os.path.abspath(__file__))
+    parser.add_argument(
+        "--continents-yaml",
+        default=os.path.join(default_directory_path, "continents.yaml"),
+        help="Input continents.yaml (default: continents.yaml beside this script).",
+    )
+    parser.add_argument(
+        "--regions-yaml",
+        default=os.path.join(default_directory_path, "regions.yaml"),
+        help="Output regions.yaml (default: regions.yaml beside this script).",
+    )
+    return parser.parse_args(argv)
+
+
+def build_regions_map_from_continents(continents):
+    merged_regions = {}
+    for continent in continents:
+        continent_name = continent["name"]
+        continent_regions = continent.get("regions", {})
+        for region_id, region_record in continent_regions.items():
+            if region_id in merged_regions:
+                raise ValueError(
+                    "duplicate region id {0!r} while merging continents".format(
+                        region_id,
+                    )
+                )
+            merged_entry = dict(region_record)
+            merged_entry["continent_name"] = continent_name
+            merged_regions[region_id] = merged_entry
+    return merged_regions
+
+
+def main(argv=None):
+    if argv is None:
+        argv = sys.argv[1:]
+    parsed_arguments = parse_arguments(argv)
+
+    sys.stderr.write(
+        "loading {0}\n".format(parsed_arguments.continents_yaml),
+    )
+    with open(parsed_arguments.continents_yaml, encoding="utf-8") as handle:
+        continents = yaml.safe_load(handle)
+
+    merged_regions = build_regions_map_from_continents(continents)
+
+    sys.stderr.write(
+        "writing {0} ({1} regions)\n".format(
+            parsed_arguments.regions_yaml,
+            len(merged_regions),
+        ),
+    )
+    with open(parsed_arguments.regions_yaml, "w", encoding="utf-8") as handle:
+        yaml.dump(
+            merged_regions,
+            handle,
+            default_flow_style=False,
+            allow_unicode=True,
+            sort_keys=True,
+            width=120,
+        )
+
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

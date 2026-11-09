@@ -1,0 +1,354 @@
+- regions:
+    us-gov-east-1:
+      lng: -82.9988
+      available: true
+      launched: '2018'
+      lat: 39.9612
+      region_name: US-East
+      label: AWS GovCloud (US-East)
+      isolation_name: AWS GovCloud
+    us-gov-west-1:
+      lng: -122.989
+      available: true
+      launched: '2011'
+      lat: 45.5231
+      region_name: US-West
+      label: AWS GovCloud (US-West)
+      isolation_name: AWS GovCloud
+    ca-central-1:
+      lng: -73.5673
+      available: true
+      launched: '2016'
+      lat: 45.5017
+      region_name: Central
+      label: Canada (Central)
+      isolation_name: Canada
+    ca-west-1:
+      lng: -114.0719
+      available: true
+      launched: '2023'
+      lat: 51.0447
+      region_name: Calgary
+      label: Canada West (Calgary)
+      isolation_name: Canada West
+    mx-central-1:
+      lng: -99.1332
+      available: true
+      launched: '2025'
+      lat: 19.4326
+      region_name: Central
+      label: Mexico (Central)
+      isolation_name: Mexico
+    us-west-1:
+      lng: -122.4194
+      available: true
+      launched: '2009'
+      lat: 37.7749
+      region_name: Northern California
+      label: US West (Northern California)
+      isolation_name: US West
+    us-east-1:
+      lng: -77.4874
+      available: true
+      launched: '2006'
+      lat: 39.0438
+      region_name: Northern Virginia
+      label: US East (Northern Virginia)
+      isolation_name: US East
+    us-east-2:
+      lng: -82.9071
+      available: true
+      launched: '2016'
+      lat: 40.4173
+      region_name: Ohio
+      label: US East (Ohio)
+      isolation_name: US East
+    us-west-2:
+      lng: -122.6789
+      available: true
+      launched: '2011'
+      lat: 45.5155
+      region_name: Oregon
+      label: US West (Oregon)
+      isolation_name: US West
+  lng: -102.8886739338
+  name: North America
+  lat: 38.9864128924722
+- regions:
+    sa-east-1:
+      lng: -46.6333
+      available: true
+      launched: '2011'
+      lat: -23.5505
+      region_name: São Paulo
+      label: South America (São Paulo)
+      isolation_name: South America
+    sa-west-1:
+      lng: -70.6693
+      available: false
+      lat: -33.4489
+      region_name: Chile
+      label: South America (Chile)
+      isolation_name: South America
+  lng: -58.48338065639213
+  name: South America
+  lat: -16.97336994066639
+- regions:
+    eu-north-1:
+      lng: 18.0686
+      available: true
+      launched: '2018'
+      lat: 59.3293
+      region_name: Stockholm
+      label: Europe (Stockholm)
+      isolation_name: Europe
+    eu-central-1:
+      lng: 8.6821
+      available: true
+      launched: '2014'
+      lat: 50.1109
+      region_name: Frankfurt
+      label: Europe (Frankfurt)
+      isolation_name: Europe
+    eu-west-1:
+      lng: -6.2603
+      available: true
+      launched: '2007'
+      lat: 53.3498
+      region_name: Ireland
+      label: Europe (Ireland)
+      isolation_name: Europe
+    eu-west-2:
+      lng: -0.1278
+      available: true
+      launched: '2016'
+      lat: 51.5074
+      region_name: London
+      label: Europe (London)
+      isolation_name: Europe
+    eu-south-1:
+      lng: 9.19
+      available: true
+      launched: '2020'
+      lat: 45.4642
+      region_name: Milan
+      label: Europe (Milan)
+      isolation_name: Europe
+    eu-west-3:
+      lng: 2.3522
+      available: true
+      launched: '2017'
+      lat: 48.8566
+      region_name: Paris
+      label: Europe (Paris)
+      isolation_name: Europe
+    eu-south-2:
+      lng: -3.7038
+      available: true
+      launched: '2022'
+      lat: 40.4168
+      region_name: Spain
+      label: Europe (Spain)
+      isolation_name: Europe
+    eu-central-2:
+      lng: 8.5417
+      available: true
+      launched: '2022'
+      lat: 47.3769
+      region_name: Zurich
+      label: Europe (Zurich)
+      isolation_name: Europe
+    eu-sovereign-4:
+      lng: 13.4167
+      available: true
+      launched: '2026'
+      lat: 52.3667
+      region_name: Germany
+      label: AWS European Sovereign Cloud (Germany)
+      isolation_name: AWS European Sovereign Cloud
+  lng: 19.66608097818667
+  name: Europe
+  lat: 51.94881430147188
+- regions:
+    me-south-1:
+      lng: 50.5577
+      available: true
+      launched: '2019'
+      lat: 26.0667
+      region_name: Bahrain
+      label: Middle East (Bahrain)
+      isolation_name: Middle East
+    me-south-2:
+      lng: 46.6753
+      available: false
+      lat: 24.7136
+      region_name: Kingdom of Saudi Arabia
+      label: Kingdom of Saudi Arabia
+      isolation_name: Kingdom of Saudi Arabia
+    il-central-1:
+      lng: 34.7818
+      available: true
+      launched: '2023'
+      lat: 32.0853
+      region_name: Tel Aviv
+      label: Israel (Tel Aviv)
+      isolation_name: Israel
+    me-central-1:
+      lng: 55.2708
+      available: true
+      launched: '2022'
+      lat: 25.2048
+      region_name: UAE
+      label: Middle East (UAE)
+      isolation_name: Middle East
+  lng: 37.05492261241452
+  name: Middle East
+  lat: 32.84183444552843
+- regions:
+    af-south-1:
+      lng: 18.4241
+      available: true
+      launched: '2020'
+      lat: -33.9249
+      region_name: Cape Town
+      label: Africa (Cape Town)
+      isolation_name: Africa
+  lng: 19.266257978021073
+  name: Africa
+  lat: -4.396369699951157
+- regions:
+    cn-north-4:
+      lng: 116.4074
+      available: true
+      launched: '2016'
+      lat: 39.9042
+      region_name: Beijing
+      label: Mainland China (Beijing)
+      isolation_name: Mainland China
+    ap-east-1:
+      lng: 114.1694
+      available: true
+      launched: '2019'
+      lat: 22.3193
+      region_name: Hong Kong
+      label: Asia Pacific (Hong Kong)
+      isolation_name: Asia Pacific
+    ap-south-2:
+      lng: 78.4867
+      available: true
+      launched: '2022'
+      lat: 17.385
+      region_name: Hyderabad
+      label: Asia Pacific (Hyderabad)
+      isolation_name: Asia Pacific
+    ap-southeast-3:
+      lng: 106.8456
+      available: true
+      launched: '2021'
+      lat: -6.2088
+      region_name: Jakarta
+      label: Asia Pacific (Jakarta)
+      isolation_name: Asia Pacific
+    ap-southeast-5:
+      lng: 101.6869
+      available: true
+      launched: '2024'
+      lat: 3.139
+      region_name: Malaysia
+      label: Asia Pacific (Malaysia)
+      isolation_name: Asia Pacific
+    ap-south-1:
+      lng: 72.8777
+      available: true
+      launched: '2016'
+      lat: 19.076
+      region_name: Mumbai
+      label: Asia Pacific (Mumbai)
+      isolation_name: Asia Pacific
+    cn-northwest-4:
+      lng: 106.2589
+      available: true
+      launched: '2017'
+      lat: 38.4722
+      region_name: Ningxia
+      label: Mainland China (Ningxia)
+      isolation_name: Mainland China
+    ap-northeast-3:
+      lng: 135.5023
+      available: true
+      launched: '2021'
+      lat: 34.6937
+      region_name: Osaka
+      label: Asia Pacific (Osaka)
+      isolation_name: Asia Pacific
+    ap-northeast-2:
+      lng: 126.978
+      available: true
+      launched: '2016'
+      lat: 37.5665
+      region_name: Seoul
+      label: Asia Pacific (Seoul)
+      isolation_name: Asia Pacific
+    ap-northeast-4:
+      lng: 121.5654
+      available: true
+      launched: '2025'
+      lat: 25.033
+      region_name: Taipei
+      label: Asia Pacific (Taipei)
+      isolation_name: Asia Pacific
+    ap-southeast-7x:
+      lng: 100.5018
+      available: true
+      launched: '2025'
+      lat: 13.7563
+      region_name: Thailand
+      label: Asia Pacific (Thailand)
+      isolation_name: Asia Pacific
+    ap-northeast-1:
+      lng: 139.6503
+      available: true
+      launched: '2011'
+      lat: 35.6762
+      region_name: Tokyo
+      label: Asia Pacific (Tokyo)
+      isolation_name: Asia Pacific
+    ap-southeast-1:
+      lng: 103.8198
+      available: true
+      launched: '2010'
+      lat: 1.3521
+      region_name: Singapore
+      label: Asia Pacific (Singapore)
+      isolation_name: Asia Pacific
+  lng: 102.98391453281832
+  name: Asia Pacific
+  lat: 12.422559146257713
+- regions:
+    ap-southeast-4:
+      lng: 144.9631
+      available: true
+      launched: '2023'
+      lat: -37.8136
+      region_name: Melbourne
+      label: Australia (Melbourne)
+      isolation_name: Australia
+    ap-southeast-2:
+      lng: 151.2093
+      available: true
+      launched: '2012'
+      lat: -33.8688
+      region_name: Sydney
+      label: Australia (Sydney)
+      isolation_name: Australia
+    ap-southeast-7:
+      lng: 174.7633
+      available: true
+      launched: '2025'
+      lat: -36.8485
+      region_name: New Zealand
+      label: Asia Pacific (New Zealand)
+      isolation_name: Asia Pacific
+  lng: 151.0053649665882
+  name: Australia and New Zealand
+  lat: -33.59901392181956

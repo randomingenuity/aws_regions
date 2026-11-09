@@ -1,0 +1,367 @@
+af-south-1:
+  available: true
+  continent_name: Africa
+  isolation_name: Africa
+  label: Africa (Cape Town)
+  lat: -33.9249
+  launched: '2020'
+  lng: 18.4241
+  region_name: Cape Town
+ap-east-1:
+  available: true
+  continent_name: Asia Pacific
+  isolation_name: Asia Pacific
+  label: Asia Pacific (Hong Kong)
+  lat: 22.3193
+  launched: '2019'
+  lng: 114.1694
+  region_name: Hong Kong
+ap-northeast-1:
+  available: true
+  continent_name: Asia Pacific
+  isolation_name: Asia Pacific
+  label: Asia Pacific (Tokyo)
+  lat: 35.6762
+  launched: '2011'
+  lng: 139.6503
+  region_name: Tokyo
+ap-northeast-2:
+  available: true
+  continent_name: Asia Pacific
+  isolation_name: Asia Pacific
+  label: Asia Pacific (Seoul)
+  lat: 37.5665
+  launched: '2016'
+  lng: 126.978
+  region_name: Seoul
+ap-northeast-3:
+  available: true
+  continent_name: Asia Pacific
+  isolation_name: Asia Pacific
+  label: Asia Pacific (Osaka)
+  lat: 34.6937
+  launched: '2021'
+  lng: 135.5023
+  region_name: Osaka
+ap-northeast-4:
+  available: true
+  continent_name: Asia Pacific
+  isolation_name: Asia Pacific
+  label: Asia Pacific (Taipei)
+  lat: 25.033
+  launched: '2025'
+  lng: 121.5654
+  region_name: Taipei
+ap-south-1:
+  available: true
+  continent_name: Asia Pacific
+  isolation_name: Asia Pacific
+  label: Asia Pacific (Mumbai)
+  lat: 19.076
+  launched: '2016'
+  lng: 72.8777
+  region_name: Mumbai
+ap-south-2:
+  available: true
+  continent_name: Asia Pacific
+  isolation_name: Asia Pacific
+  label: Asia Pacific (Hyderabad)
+  lat: 17.385
+  launched: '2022'
+  lng: 78.4867
+  region_name: Hyderabad
+ap-southeast-1:
+  available: true
+  continent_name: Asia Pacific
+  isolation_name: Asia Pacific
+  label: Asia Pacific (Singapore)
+  lat: 1.3521
+  launched: '2010'
+  lng: 103.8198
+  region_name: Singapore
+ap-southeast-2:
+  available: true
+  continent_name: Australia and New Zealand
+  isolation_name: Australia
+  label: Australia (Sydney)
+  lat: -33.8688
+  launched: '2012'
+  lng: 151.2093
+  region_name: Sydney
+ap-southeast-3:
+  available: true
+  continent_name: Asia Pacific
+  isolation_name: Asia Pacific
+  label: Asia Pacific (Jakarta)
+  lat: -6.2088
+  launched: '2021'
+  lng: 106.8456
+  region_name: Jakarta
+ap-southeast-4:
+  available: true
+  continent_name: Australia and New Zealand
+  isolation_name: Australia
+  label: Australia (Melbourne)
+  lat: -37.8136
+  launched: '2023'
+  lng: 144.9631
+  region_name: Melbourne
+ap-southeast-5:
+  available: true
+  continent_name: Asia Pacific
+  isolation_name: Asia Pacific
+  label: Asia Pacific (Malaysia)
+  lat: 3.139
+  launched: '2024'
+  lng: 101.6869
+  region_name: Malaysia
+ap-southeast-7:
+  available: true
+  continent_name: Australia and New Zealand
+  isolation_name: Asia Pacific
+  label: Asia Pacific (New Zealand)
+  lat: -36.8485
+  launched: '2025'
+  lng: 174.7633
+  region_name: New Zealand
+ap-southeast-7x:
+  available: true
+  continent_name: Asia Pacific
+  isolation_name: Asia Pacific
+  label: Asia Pacific (Thailand)
+  lat: 13.7563
+  launched: '2025'
+  lng: 100.5018
+  region_name: Thailand
+ca-central-1:
+  available: true
+  continent_name: North America
+  isolation_name: Canada
+  label: Canada (Central)
+  lat: 45.5017
+  launched: '2016'
+  lng: -73.5673
+  region_name: Central
+ca-west-1:
+  available: true
+  continent_name: North America
+  isolation_name: Canada West
+  label: Canada West (Calgary)
+  lat: 51.0447
+  launched: '2023'
+  lng: -114.0719
+  region_name: Calgary
+cn-north-4:
+  available: true
+  continent_name: Asia Pacific
+  isolation_name: Mainland China
+  label: Mainland China (Beijing)
+  lat: 39.9042
+  launched: '2016'
+  lng: 116.4074
+  region_name: Beijing
+cn-northwest-4:
+  available: true
+  continent_name: Asia Pacific
+  isolation_name: Mainland China
+  label: Mainland China (Ningxia)
+  lat: 38.4722
+  launched: '2017'
+  lng: 106.2589
+  region_name: Ningxia
+eu-central-1:
+  available: true
+  continent_name: Europe
+  isolation_name: Europe
+  label: Europe (Frankfurt)
+  lat: 50.1109
+  launched: '2014'
+  lng: 8.6821
+  region_name: Frankfurt
+eu-central-2:
+  available: true
+  continent_name: Europe
+  isolation_name: Europe
+  label: Europe (Zurich)
+  lat: 47.3769
+  launched: '2022'
+  lng: 8.5417
+  region_name: Zurich
+eu-north-1:
+  available: true
+  continent_name: Europe
+  isolation_name: Europe
+  label: Europe (Stockholm)
+  lat: 59.3293
+  launched: '2018'
+  lng: 18.0686
+  region_name: Stockholm
+eu-south-1:
+  available: true
+  continent_name: Europe
+  isolation_name: Europe
+  label: Europe (Milan)
+  lat: 45.4642
+  launched: '2020'
+  lng: 9.19
+  region_name: Milan
+eu-south-2:
+  available: true
+  continent_name: Europe
+  isolation_name: Europe
+  label: Europe (Spain)
+  lat: 40.4168
+  launched: '2022'
+  lng: -3.7038
+  region_name: Spain
+eu-sovereign-4:
+  available: true
+  continent_name: Europe
+  isolation_name: AWS European Sovereign Cloud
+  label: AWS European Sovereign Cloud (Germany)
+  lat: 52.3667
+  launched: '2026'
+  lng: 13.4167
+  region_name: Germany
+eu-west-1:
+  available: true
+  continent_name: Europe
+  isolation_name: Europe
+  label: Europe (Ireland)
+  lat: 53.3498
+  launched: '2007'
+  lng: -6.2603
+  region_name: Ireland
+eu-west-2:
+  available: true
+  continent_name: Europe
+  isolation_name: Europe
+  label: Europe (London)
+  lat: 51.5074
+  launched: '2016'
+  lng: -0.1278
+  region_name: London
+eu-west-3:
+  available: true
+  continent_name: Europe
+  isolation_name: Europe
+  label: Europe (Paris)
+  lat: 48.8566
+  launched: '2017'
+  lng: 2.3522
+  region_name: Paris
+il-central-1:
+  available: true
+  continent_name: Middle East
+  isolation_name: Israel
+  label: Israel (Tel Aviv)
+  lat: 32.0853
+  launched: '2023'
+  lng: 34.7818
+  region_name: Tel Aviv
+me-central-1:
+  available: true
+  continent_name: Middle East
+  isolation_name: Middle East
+  label: Middle East (UAE)
+  lat: 25.2048
+  launched: '2022'
+  lng: 55.2708
+  region_name: UAE
+me-south-1:
+  available: true
+  continent_name: Middle East
+  isolation_name: Middle East
+  label: Middle East (Bahrain)
+  lat: 26.0667
+  launched: '2019'
+  lng: 50.5577
+  region_name: Bahrain
+me-south-2:
+  available: false
+  continent_name: Middle East
+  isolation_name: Kingdom of Saudi Arabia
+  label: Kingdom of Saudi Arabia
+  lat: 24.7136
+  lng: 46.6753
+  region_name: Kingdom of Saudi Arabia
+mx-central-1:
+  available: true
+  continent_name: North America
+  isolation_name: Mexico
+  label: Mexico (Central)
+  lat: 19.4326
+  launched: '2025'
+  lng: -99.1332
+  region_name: Central
+sa-east-1:
+  available: true
+  continent_name: South America
+  isolation_name: South America
+  label: South America (São Paulo)
+  lat: -23.5505
+  launched: '2011'
+  lng: -46.6333
+  region_name: São Paulo
+sa-west-1:
+  available: false
+  continent_name: South America
+  isolation_name: South America
+  label: South America (Chile)
+  lat: -33.4489
+  lng: -70.6693
+  region_name: Chile
+us-east-1:
+  available: true
+  continent_name: North America
+  isolation_name: US East
+  label: US East (Northern Virginia)
+  lat: 39.0438
+  launched: '2006'
+  lng: -77.4874
+  region_name: Northern Virginia
+us-east-2:
+  available: true
+  continent_name: North America
+  isolation_name: US East
+  label: US East (Ohio)
+  lat: 40.4173
+  launched: '2016'
+  lng: -82.9071
+  region_name: Ohio
+us-gov-east-1:
+  available: true
+  continent_name: North America
+  isolation_name: AWS GovCloud
+  label: AWS GovCloud (US-East)
+  lat: 39.9612
+  launched: '2018'
+  lng: -82.9988
+  region_name: US-East
+us-gov-west-1:
+  available: true
+  continent_name: North America
+  isolation_name: AWS GovCloud
+  label: AWS GovCloud (US-West)
+  lat: 45.5231
+  launched: '2011'
+  lng: -122.989
+  region_name: US-West
+us-west-1:
+  available: true
+  continent_name: North America
+  isolation_name: US West
+  label: US West (Northern California)
+  lat: 37.7749
+  launched: '2009'
+  lng: -122.4194
+  region_name: Northern California
+us-west-2:
+  available: true
+  continent_name: North America
+  isolation_name: US West
+  label: US West (Oregon)
+  lat: 45.5155
+  launched: '2011'
+  lng: -122.6789
+  region_name: Oregon
